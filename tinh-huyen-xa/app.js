@@ -1,9 +1,9 @@
 const province = document.getElementById('province');
 const district = document.getElementById('district');
 const wards = document.getElementById('wards');
-var arrTinh = [];
-var arrHuyen = [];
-var arrXa = [];
+const arrTinh = [];
+const arrHuyen = [];
+const arrXa = [];
 
 fetch('https://gist.githubusercontent.com/tronginc/fef9d1b1d48e39077a9a377052f5f8e4/raw/4268fd70072c69d1ade84ce09c61926b18c5dbff/vietnam.json?fbclid=IwAR3BeB7aro2Tp0XMcUlUVKGO80aEob8YT_92bITW71zBSv4GxVyST39d8hY')
     .then(response => response.json())
